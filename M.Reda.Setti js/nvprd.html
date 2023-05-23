@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="nvprd.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body>
+    <div class="header">
+        <h4><a href="acceuil.html">précédent </a></h4>
+
+        <nav class="navbar">
+
+                <h4>
+                    <li><a href="cdm.html">Commandes</a></li>
+                </h4>
+            </ul>
+        </nav>
+    </div>
+    <center>
+         <button type="button" id="ajoter" onclick="ajouter()">ajouter un plat</button>
+    </center>
+
+    <div class="card mb-3 col-3 ms-5"  id="ajou">
+        <h3 class="card-header" id="ajnom" ></h3>
+        <div class="card-body">
+
+        </div>
+    </div>
+
+    <div class="supp">
+        <button type="button" onclick="supprimer()">supprimer tout les plats</button>
+    </div>
+
+
+</body>
+<script src="nvprd.js"></script>
+</html>

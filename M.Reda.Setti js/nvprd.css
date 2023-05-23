@@ -1,0 +1,45 @@
+body{
+    background-image: linear-gradient(rgba(189, 189, 189, 0.5),rgba(189, 189, 189, 0.5)),url(assiette_biremplie_shutterstock_165933947.webp);
+    background-size:cover;  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+ }
+ li{
+    list-style: none;
+    padding: 0 10px; 
+    
+}
+ul{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    }
+.navbar{
+    width:15%;
+ 
+    }
+    .image{
+
+    width: 300px;
+  }
+.reda{
+    display: flex;
+    align-items: center;
+}
+.header{
+    display: flex;
+    justify-content:space-between ;
+}
+
+.supp{
+    padding: auto; 
+}
+
+.navbar  :hover {
+    color: #fff;
+    letter-spacing: 1px;
+ }
+ 
